@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "940040443171",
+    "project_id": "fitness-tracker-app-fb-flutter",
+    "storage_bucket": "fitness-tracker-app-fb-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940040443171:android:0c5bab9651c71944b9a896",
+        "android_client_info": {
+          "package_name": "com.example.fitness_tracker_app_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940040443171-lnlenh0gsngmj95uah1c3em60vuhnr4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitness_tracker_app_firebase",
+            "certificate_hash": "6d5c5964826feb274a78fb10160bd1ad43350d1b"
+          }
+        },
+        {
+          "client_id": "940040443171-apc54nm412s3mjmaq8nqneu47vppoha0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACCyKYOkn6EbPMI7Ti5DpS3GfiuRPuB_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940040443171-apc54nm412s3mjmaq8nqneu47vppoha0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "940040443171-tic4cgefspudplkmfpjadqsmsbj9414a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fitnessTrackerAppFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
