@@ -29,10 +29,10 @@ class _MyBottomNavBarState extends State<MyBottomNavBar> {
         backgroundColor: Colors.transparent,
         color: Colors.black,
         animationCurve: Curves.easeInOut,
-        animationDuration: Duration(milliseconds: 500),
+        animationDuration: Duration(milliseconds: 300),
         items: [
           Icon(Icons.home, color: Colors.white),
-          Icon(Icons.home, color: Colors.white),
+          Icon(Icons.fitness_center, color: Colors.white),
           Icon(Icons.person, color: Colors.white),
         ],
         onTap: (int index) {

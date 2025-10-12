@@ -66,6 +66,8 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 16.0),
 
               TextField(
+                obscureText: true,
+                obscuringCharacter: "*",
                 controller: passwordController,
                 decoration: InputDecoration(
                   filled: true,
@@ -75,7 +77,6 @@ class _LoginPageState extends State<LoginPage> {
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                 ),
-                obscureText: true,
               ),
 
               const SizedBox(height: 32.0),
@@ -97,11 +98,19 @@ class _LoginPageState extends State<LoginPage> {
                     );
 
                     if (value.isLoginSuccess == true) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text("User logged in successfully"),
+                          backgroundColor: Colors.green,
+                        ),
+                      );
+
                       Navigator.pushReplacementNamed(context, '/auth_gate');
                     } else {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
                           content: Text("Error while Signing In!! Try again"),
+                          backgroundColor: Colors.red,
                         ),
                       );
                     }
