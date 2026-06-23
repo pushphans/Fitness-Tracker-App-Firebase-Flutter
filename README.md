@@ -1,16 +1,24 @@
-# fitness_tracker_app_firebase
+# Fitness-Tracker-App-Firebase-Flutter
 
-A new Flutter project.
+A fitness tracking application built with Flutter and Firebase.
+
+## Overview
+This repository showcases a practical mobile app for monitoring fitness progress with a modern and user-friendly interface.
+
+## Highlights
+- Activity and fitness tracking
+- Firebase-backed data support
+- Modern Flutter UI experience
+
+## Tech Stack
+- Flutter
+- Dart
+- Firebase
 
 ## Getting Started
+1. Clone the repository.
+2. Install dependencies.
+3. Configure Firebase and run the app.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contact
+For questions or collaboration, reach out to @pushphans.
